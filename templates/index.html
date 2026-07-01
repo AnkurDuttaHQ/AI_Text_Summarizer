@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Text Summarizer</title>
+    <link rel="icon" href="/static/image/img.png" type="image/png">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Remix Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <span class="blob blob1"></span>
+        <span class="blob blob2"></span>
+        <span class="blob blob3"></span>
+    </div>
+
+    <!-- Navbar -->
+
+    <nav>
+
+        <div class="logo">
+
+            <i class="ri-robot-2-fill"></i>
+
+            <span>AI Summarizer</span>
+
+        </div>
+
+        <div class="nav-btn">
+
+            <button>
+
+                <a href="https://github.com/AnkurDuttaHQ/Text_Summarizer"
+                target="_blank"
+                class="github-btn">
+
+                <i class="ri-github-fill"></i>
+
+                <span>GitHub</span>
+
+                </a>
+            </button>
+
+        </div>
+
+    </nav>
+
+    <!-- Hero -->
+
+    <section class="hero">
+
+        <span class="badge">
+
+            <i class="ri-flashlight-fill"></i>
+
+            Powered by Fine-Tuned T5 Transformer
+
+        </span>
+
+        <h1>
+
+            AI Text Summarizer
+
+        </h1>
+
+        <p>
+
+            Generate concise and meaningful summaries using a fine-tuned
+            Transformer model.
+
+        </p>
+
+    </section>
+
+    <!-- Main Card -->
+
+    <main class="glass-card">
+
+        <!-- Input Section -->
+
+        <div class="section-title">
+
+            <i class="ri-file-text-fill"></i>
+
+            <h2>Input Text</h2>
+
+        </div>
+
+        <textarea
+            id="inputText"
+            placeholder="Paste your article, paragraph, research paper or any long text here..."></textarea>
+
+        <div class="bottom-bar">
+
+            <span id="charCount">
+
+                0 Characters
+
+            </span>
+
+            <div class="buttons">
+
+                <button class="clear-btn" id="clearBtn">
+
+                    <i class="ri-delete-bin-6-line"></i>
+
+                    Clear
+
+                </button>
+
+                <button class="summarize-btn" id="summarizeBtn">
+
+                    <i class="ri-magic-line"></i>
+
+                    Summarize
+
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- Loading -->
+
+        <div id="loading">
+
+            <div class="loader"></div>
+
+            <p>
+
+                AI is generating summary...
+
+            </p>
+
+        </div>
+
+        <!-- Output -->
+
+        <div class="output-container">
+
+            <div class="section-title">
+
+                <i class="ri-sparkling-fill"></i>
+
+                <h2>Generated Summary</h2>
+
+            </div>
+
+            <div id="summaryBox">
+
+                Your AI generated summary will appear here...
+
+            </div>
+
+            <button id="copyBtn">
+
+                <i class="ri-file-copy-line"></i>
+
+                Copy Summary
+
+            </button>
+
+        </div>
+
+    </main>
+
+    <!-- Features -->
+
+    <section class="features">
+
+        <div class="feature-card">
+
+            <i class="ri-cpu-line"></i>
+
+            <h3>Transformer AI</h3>
+
+            <p>
+
+                Fine-tuned T5 model for accurate summarization.
+
+            </p>
+
+        </div>
+
+        <div class="feature-card">
+
+            <i class="ri-time-line"></i>
+
+            <h3>Fast Results</h3>
+
+            <p>
+
+                Generate summaries within seconds.
+
+            </p>
+
+        </div>
+
+        <div class="feature-card">
+
+            <i class="ri-shield-check-line"></i>
+
+            <h3>Privacy First</h3>
+
+            <p>
+
+                Your text is processed securely through your own API.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>
+
+            Developed by <strong>AnkurDev</strong> ❤️ | AI Text Summarizer
+
+        </p>
+
+    </footer>
+
+    <!-- JavaScript -->
+
+    <script src="/static/js/script.js"></script>
+
+</body>
+
+</html>
