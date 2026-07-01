@@ -7,7 +7,7 @@
 Transform long documents into concise, meaningful summaries with the power of Artificial Intelligence.
 </p>
 
-<img src="static/images/logo.png" width="140">
+<img src="static/image/img.png" width="140">
 
 ![Python](https://img.shields.io/badge/Python-3.13-blue?style=for-the-badge&logo=python)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi)
